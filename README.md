@@ -61,19 +61,46 @@ Y= A⊕B
 
 5.	For different input combinations generate the timing diagram.
 
-
 **PROGRAM**
+module EXP1(
+	input wire a, 
+	input wire b, 
+	output wire and_out,
+	output wire or_out,
+	output wire not_out,
+	output wire nand_out,
+	output wire nor_out,
+	output wire xor_out,
+	output wire xnor_out
+);
+
+	assign and_out  = a & b;
+	assign or_out   = a | b;
+	assign not_out  = ~a;
+	assign nand_out = ~(a & b);
+	assign nor_out  = ~(a | b);
+	assign xor_out  = ~a ^ b;
+	assign xnor_out = ~(a ^ b);
+
+endmodule
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed  by : Santhosh kumar V
+ RegisterNumber: 25016278
  
 **Logic symbol & Truthtable**
 
 **RTL realization Output:** 
 
+[EXP1.pdf](https://github.com/user-attachments/files/23678420/EXP1.pdf)
+
 **RTL**
 
+[EXPERIMENT 1.pdf](https://github.com/user-attachments/files/23678474/EXPERIMENT.1.pdf)
+
 **Result:**
+Thus the given logic functions are implemented using and their operations
+ are verified using Verilog programming.
 
 
