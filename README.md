@@ -63,6 +63,7 @@ Y= A⊕B
 
 
 **PROGRAM**
+```
 module EXP1(
 	input wire a, 
 	input wire b, 
@@ -84,7 +85,7 @@ module EXP1(
 	assign xnor_out = ~(a ^ b);
 
 endmodule
-
+```
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
  Developed by  : Santhosh kumar V
